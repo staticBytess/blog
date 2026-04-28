@@ -1,6 +1,6 @@
 .blog-section {
     display: block;
-    max-width: 80%;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -8,13 +8,45 @@
 img {
     display: block;
     margin: 5px auto;
-    max-height: 50vh;
-    max-width: 50vh;
-    border: 7px solid rgb(10, 25, 102);
+    width: auto;
+    height: auto;
+    max-width: 600px;
+    max-height: 500px;
+    object-fit: contain;
+    border: 5px solid rgb(189, 58, 56);
     border-radius: 15px;
-    padding: 0;
+}
+
+body{
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
 }
 
 h1{
-    text-align: center;
+    font-size: 60px;
+    margin-bottom: 0px;
+    background-image: linear-gradient(to right, #186ddb, #d6054e, #186ddb);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    
+}
+
+h2{
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    font-size: 35px;
+    background-image: linear-gradient(to right, #e12652, #186ddb, #e12652);
+    background-repeat: no-repeat;
+    background-size: 100% 0.15em;
+    /* 100% width, 0.15em thickness */
+    background-position: 0 95%;
+}
+
+
+ol {
+    margin: 0px;
 }

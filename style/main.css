@@ -1,7 +1,61 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&family=Mozilla+Headline:wght@200..700&family=Offside&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+body {
     background-color: rgb(183, 203, 187);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+        font-family: "Bitcount Single", system-ui;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-style: normal;
+            font-variation-settings:
+                "slnt" 0,
+                "CRSV" 0.5,
+                "ELSH" 0,
+
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-weight: 700;
+    font-family: "Offside", sans-serif;
+    font-style: normal;
 }
 
 a {
-    color: #071c91;
+    color: #a1063d;
+}
+
+.bitcount-single-ink-h1 {
+    font-family: "Bitcount Single", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+}
+
+
+.mozilla-headline-h1 {
+    font-family: "Mozilla Headline", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.source-code-pro-body {
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
 }

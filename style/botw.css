@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "MyGameFont";
+    src: url("../fonts/hylia.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --background-color: #0862A7;
+    --h1-color:#FCF7D9;
+    --h2-color:#F4BC73;
+    --h3-color:#edc870;
+    --p-color:#FEFBF6;
+    --border-color:#AFD9ED;
+    --h2-line-color: #83AA1F;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.blog-section {
+    display: block;
+    max-width: 1200px;
+    min-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #436687;
+    border-radius: 20px;
+    padding: 40px;
+    margin-bottom: 30px;
+    
+}
+
+img {
+    display: block;
+    margin: 5px auto;
+    width: auto;
+    height: auto;
+    max-width: 800px;
+    max-height: 500px;
+    object-fit: contain;
+    border: 2px solid var(--border-color);
+    border-radius: 55px;
+}
+
+#header img {
+    width: 100%;
+    height: auto;
+    max-width: 75vw;
+    max-height: 90vh;
+    min-width: 400px;
+    object-fit: contain;
+}
+
+#header{
+    min-width: 400px;
+}
+
+
+
+body {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    font-size: 18px;
+    background-color: var(--background-color);
+}
+
+h1,
+h2 {
+    font-family: "MyGameFont", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 6px;
+}
+
+h1 {
+    font-size: 80px;
+    margin-bottom: 0px;
+    color: var(--h1-color);
+    margin-bottom: 120px;
+    margin-top: 10px;
+}
+
+h2 {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-size: 35px;
+    background-image: linear-gradient(to right,
+            var(--h2-line-color));
+    background-repeat: no-repeat;
+    background-size: 90% 0.15em;
+    background-position: 0 100%;
+    color: var(--h2-color);
+    text-align: left;
+
+
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    line-height: 1.75;
+    color: var(--p-color);
+}
